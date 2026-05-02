@@ -1,0 +1,144 @@
+/* CONTACT */
+.contact {
+  background: linear-gradient(90deg, #aa367c 0%, #4a2fbd 100%);
+  padding: 60px 0 100px;
+}
+
+.contact img {
+  width: 92%;
+  max-width: 100%;
+}
+
+.contact h2 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.5);
+  border-radius: 20px;
+  color: white;
+  margin-bottom: 12px;
+  padding: 18px 26px;
+  outline: none;
+}
+
+.contact form input::placeholder,
+.contact form textarea::placeholder {
+  color: rgba(255,255,255,0.75);
+}
+
+.contact form button {
+  font-weight: 700;
+  color: #000;
+  background: #fff;
+  padding: 14px 48px;
+  border: none;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.contact form button:hover {
+  background: #eaeaea;
+}
+
+
+/* NEWSLETTER */
+.newsletter-bx {
+  background: #fff;
+  border-radius: 30px;
+  padding: 50px;
+  margin-top: -60px;
+  position: relative;
+  z-index: 2;
+}
+
+.newsletter-bx h3 {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 1.2em;
+}
+
+.new-email-bx {
+  background: white;
+  padding: 5px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+}
+
+.new-email-bx input {
+  width: 100%;
+  border: none;
+  padding: 15px;
+  outline: none;
+  background: transparent;
+}
+
+.new-email-bx button {
+  background: linear-gradient(90deg, #aa367c 0%, #4a2fbd 100%);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 15px;
+}
+
+
+/* FOOTER */
+.footer {
+  background: #000;
+  padding: 40px 0 25px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin-top: 40px;
+}
+
+.footer-logo {
+  color: #fff;
+  font-size: 38px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.social-icon a {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease;
+}
+
+.social-icon a:hover {
+  background: #aa367c;
+  transform: translateY(-3px);
+}
+
+.social-icon img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.footer p {
+  font-size: 12px;
+  margin: 0;
+  color: #b8b8b8;
+  text-align: right;
+}
